@@ -1,0 +1,21 @@
+---
+name: cmpsc-100-fall-2018-practical9
+break: true
+indent: 4
+---
+src/main:
+    java:
+        practicalten/LoopStyles.java:
+            --multi 4 --language Java
+            --fragment "for (" --count 1
+            --fragment "do {" --count 1
+        practicalten/SwitchDay.java:
+            --multi 2 --language Java
+            --fragment "break;" --count 1
+            --fragment "switch (" --count 1
+        practicalten/CallingMethodsInSameClass.java:
+            --multi 5 --language Java
+            --fragment "public static void printThree()" --count 1
+--commits 1
+
+--command "gradle -q --console plain run" --executes
