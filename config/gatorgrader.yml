@@ -16,6 +16,6 @@ src/main:
         practicalten/CallingMethodsInSameClass.java:
             --multi 5 --language Java
             --fragment "public static void printThree()" --count 1
---commits 1
+--commits 3
 
 --command "gradle -q --console plain run" --executes
